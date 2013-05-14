@@ -65,17 +65,17 @@ public class PlatLogoActivity extends Activity {
         TextView tv = new TextView(this);
         if (light != null) tv.setTypeface(light);
         tv.setTextSize(1.25f*size);
-        tv.setTextColor(0xFFFFFFFF);
+        tv.setTextColor(0xFFED741B);
         tv.setShadowLayer(4*metrics.density, 0, 2*metrics.density, 0x66000000);
-        tv.setText("Android " + Build.VERSION.RELEASE);
+        tv.setText("MrageDroid " + Build.VERSION.RELEASE);
         view.addView(tv, lp);
    
         tv = new TextView(this);
         if (normal != null) tv.setTypeface(normal);
         tv.setTextSize(size);
-        tv.setTextColor(0xFFFFFFFF);
+        tv.setTextColor(0xFFED741B);
         tv.setShadowLayer(4*metrics.density, 0, 2*metrics.density, 0x66000000);
-        tv.setText("JELLY BEAN");
+        tv.setText("MRAGE ROM");
         view.addView(tv, lp);
 
         return view;
